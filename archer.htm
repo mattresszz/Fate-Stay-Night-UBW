@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+.header {
+	background-color: black;
+    background-image: url(Logo.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #111;
+    color: aqua;
+}
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding-left: 20px;
+	font-size: 20px;
+	color: #B6B6B6
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+<a href="Fate stay night.htm">About</a>
+<a href="Gallery.htm">Characters</a>
+<a href="Op and ED.html">Openings and Endings</a>
+<a href="episodes.htm">Episodes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: #B6B6B6; font-size: 26px">Archer</h2>
+        <p style="font-size: 22px; color: #B6B6B6">
+Archer is the Archer-class Servant of Rin Tohsaka in the Fifth Holy Grail War of Fate/stay night. He acts as a Counter Guardian for the world as payment for the contract. He is summoned because he still has the jewel pendant that Rin used to save his life after Lancer stabbed his heart. The jewel he owns is the actual catalyst used for his summoning rather than the one that Rin still has at the time of his summoning. 
+		</p>
+	  </div>
+ <div class="card">
+	  <h2 style="font-size: 26px; color: #B6B6B6">Appearance</h2>
+	  <p style="font-size: 22px; color: #B6B6B6">Archer appears as a young man in his mid- twenties with a muscular build. Archer has white hair, gray eyes and tanned skin colour. His skin, hair and eye colors are different to his younger self due to the extensive use of projection magecraft that caused a rebound effect. His servant clothing, Red Plain Mystic Code is Archer's signature costume. He wears a black body armor made from a special material that has yet to be discovered by mankind as of the present time, which consisted of a black tight and sleeveless shirt with sliver accents which outlined his muscles and a metal plate on his collar, and black pants that had two black straps on his thighs, and another two strapped around his shins separate from each other.
+</p>
+	  </div>
+  </div>
+<div class="rightcolumn">
+	<img src="archer.jpg" alt="Archer" width="350px" height="530px"> 
+	<p><b>Japanese name: </b>アーチャー</p>
+	<p><b>Also known as: </b>Wrought Iron Hero</p>
+	<p><b>Japanese VA: </b>Junichi Suwabe</p>
+	<p><b>English VA: </b>Liam O'Brien, Kaiji Tang</p>
+	<p><b>Gender: </b>Male</p>
+	<p><b>Height: </b>187cm</p>
+	<p><b>Weight: </b>78kg</p>
+	<p><b>Place of Origin: </b>Japan</p>
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+.header {
+	background-color: black;
+    background-image: url(Logo.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #111;
+    color: aqua;
+}
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding-left: 20px;
+	font-size: 20px;
+	color: #B6B6B6
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+<a href="Fate stay night.htm">About</a>
+<a href="Gallery.htm">Characters</a>
+<a href="Op and ED.html">Openings and Endings</a>
+<a href="episodes.htm">Episodes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: #B6B6B6; font-size: 26px">Gilgamesh</h2>
+        <p style="font-size: 22px; color: #B6B6B6">
+ Gilgamesh, also known as Archer, is the Archer-class Servant of Tokiomi Tohsaka in the Fourth Holy Grail War of Fate/Zero. He later forms a new contract with Kirei Kotomine that lasts ten years later into the time of the Fifth Holy Grail War of Fate/stay night. 
+		</p>
+          <p style="font-size: 22px; color: #B6B6B6">Archer's true Name is Gilgamesh, the great half-god, half-human king. He ruled the Sumerian city-state of Uruk, the capital city of ancient Mesopotamia in the B.C. era. He was a despot possessing high divinity who believed he was invincible. He is not merely a legend, and is said to have actually existed and ruled during the Sumer Dynasty five thousand years ago. He was the King of Heroes who possessed all things in the world, whose tale is recorded in mankind's oldest epic poem, the Epic of Gilgamesh which portrays Gilgamesh as a hero, destined to be king and achieve great feats.
+		  </p>
+	
+	  </div>
+ <div class="card">
+	  <h2 style="font-size: 26px; color: #B6B6B6">Appearance</h2>
+	  <p style="font-size: 22px; color: #B6B6B6">Gilgamesh is a tall and dignified young man with golden hair standing up like a blazing flame. He is described as handsome with a handsome face, and his eyes, crimson like blood, are visibly not those of a human and give off a mysterious radiance that makes people wither. He has a "perfect, Golden-proportioned body" described as emanating majesty that makes flames surrounding him afraid to come close, and his very soul glows golden.[11] He normally wears golden armor that makes a heavy first impression on those he encounters.
+	  </div>
+  </div>
+<div class="rightcolumn">
+	<img src="gilgamesh.jpg" alt="Archer" width="350px" height="530px"> 
+	<p><b>Japanese name: </b>ギルガメッシュ</p>
+	<p><b>Also known as: </b>King of Heroes</p>
+	<p><b>Japanese VA: </b>Tomokazu Seki</p>
+	<p><b>English VA: </b>Grant George, David Vincent </p>
+	<p><b>Gender: </b>Male</p>
+	<p><b>Height: </b>182cm</p>
+	<p><b>Weight: </b>68kg</p>
+	<p><b>Region: </b>Ancient Mesopotamia</p>
+	<p><b>Source: </b>Epic of Gilgamesh</p>
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>

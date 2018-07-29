@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+.header {
+	background-color: black;
+    background-image: url(Logo.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #111;
+    color: aqua;
+}
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding-left: 20px;
+	font-size: 20px;
+	color: #B6B6B6
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+<a href="Fate stay night.htm">About</a>
+<a href="Gallery.htm">Characters</a>
+<a href="Op and ED.html">Openings and Endings</a>
+<a href="episodes.htm">Episodes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: #B6B6B6; font-size: 26px">Saber</h2>
+    <p style="font-size: 22px; color: #B6B6B6">
+Saber is one of the main characters of Fate/Zero and one of the three main heroines of Fate/stay night. She is the Saber-class Servant of Kiritsugu Emiya in the Fourth Holy Grail War and Shirou Emiya in the Fifth Holy Grail War. Saber's True Name is Artoria Pendragon, better known as Arthur Pendragon and King Arthur, who is regarded as a male in history. She is the "Once and Future King" and a legendary hero of Britain known as the King of Knights. She wielded the sword from the stone, Caliburn, but it was eventually destroyed. She later obtained Excalibur and Avalon from the Lady of the Lake.
+		</p>
+	  </div>
+ <div class="card">
+	  <h2 style="font-size: 26px; color: #B6B6B6">Appearance</h2>
+	  <p style="font-size: 22px; color: #B6B6B6">Saber has the appearance of a young woman in her late teens with a slender physique, soft skin, and green eyes. She has "finely textured" blonde hair that seems "as if sprinkled with gold dust." Her face shows some signs of naivety and displays elegance. She normally wears shining armor with an old styled dress, made from old-fashioned blue cloth, underneath.
+</p>
+	  </div>
+  </div>
+<div class="rightcolumn">
+	<img src="saber.jpg" alt="saber" width="350px" height="530px"> 
+	<p><b>Japanese name: </b>セイバー</p>
+	<p><b>Also known as: </b>King Arthur, King of Knights</p>
+	<p><b>Japanese VA: </b>Ayako Kawasumi</p>
+	<p><b>English VA: </b>Kari Wahlgren</p>
+	<p><b>Gender: </b>Female</p>
+	<p><b>Height: </b>154cm</p>
+	<p><b>Weight: </b>42kg</p>
+	<p><b>Place of Origin: </b>Britain</p>
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>

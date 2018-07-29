@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+.header {
+	background-color: black;
+    background-image: url(Logo.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #111;
+    color: aqua;
+}
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding-left: 20px;
+	font-size: 20px;
+	color: #B6B6B6
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+</div>
+
+<div class="topnav">
+<a href="Fate stay night.htm">About</a>
+<a href="Gallery.htm">Characters</a>
+<a href="Op and ED.html">Openings and Endings</a>
+<a href="episodes.htm">Episodes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2 style="color: #B6B6B6; font-size: 26px">Shirou Emiya</h2>
+    <p style="font-size: 22px; color: #B6B6B6">
+Ten years before the start of Fate/stay night, Shirou was an ordinary boy living with his parents in Shinto. The great fire caused by the contents of the Holy Grail spilling out at the end of the Fourth Holy Grail War killed both his parents and left him mortally wounded within the blaze. He was rescued by Kiritsugu Emiya, who was dejected after indirectly causing the fire and, wishing to actually "save" someone for the first time in his life, rescued Shirou by embedding Avalon in his body. He then later asked the recovering Shirou if he would like to become his adopted son, fully disclosing his identity as a magus. Shirou agreed and spent the next two years persistently asking Kiritsugu to teach him Magecraft. Kiritsugu eventually complied, and though he disapproved of Shirou's desire to learn his craft, he advised applying it in secret, where it could only benefit people and not attract confusion or suspicion. The knowledge he imparted to Shirou was very basic and incomplete, leading him down a dangerous path with little results. Furthermore, and perhaps inadvertently, Kiritsugu passed on his philosophy of wishing to be a Hero of Justice capable of saving anyone to Shirou.
+	</p>
+	  </div>
+ <div class="card">
+	  <h2 style="font-size: 26px; color: #B6B6B6">Appearance</h2>
+	  <p style="font-size: 22px; color: #B6B6B6">In the events of Fate/Stay Night, Shirou is a teenager with auburn hair and golden-brown coloured eyes. He is often seen wearing his casual clothing, consisting of a blue and white long sleeve baseball jersey T-shirt and a blue slim straight jeans. During school, he wears his Homurahara Academy uniform but underneath his jacket uniform, he wears the same long sleeve baseball jersey T-shirt.</p>
+	  </div>
+  </div>
+<div class="rightcolumn">
+	<img src="emiya.jpg" alt="emiya" width="350px" height="530px"> 
+	<p><b>Japanese name: </b>衛宮士郎</p>
+	<p><b>Also Known As: </b>Faker</p>
+	<p><b>Japanese VA: </b>Noriaki Sugiyama</p>
+	<p><b>English VA: </b>Bryce Papenbrook</p>
+	<p><b>Gender: </b>Male</p>
+	<p><b>Height: </b>167cm</p>
+	<p><b>Weight: </b>58kg</p>
+	<p><b>Place of Origin: </b>Japan</p>
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>

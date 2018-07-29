@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: black;
+}
+.header {
+	background-color: black;
+    background-image: url(Logo.jpg); 
+	background-position: center;
+	background-repeat: no-repeat;
+    padding: 170px;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #111;
+    color: aqua;
+}
+.topnav a.active {
+  background-color: red;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+	color: #B6B6B6;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #000000;
+    margin-top: 20px;
+	color: aqua;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+</div>
+
+<div class="topnav">
+<a href="Fate stay night.htm">About</a>
+<a href="Gallery.htm">Characters</a>
+<a href="Op and ED.html">Openings and Endings</a>
+<a class="active" href="#Episodes">Episodes</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Episode 0</h2>
+    <p>
+	<!-- Replace name@website.com with your email address -->
+<a href="https://www.anime-planet.com/anime/fate-stay-night-unlimited-blade-works-prologue/videos/40885">Episode 0 Prologue</a>  
+	</p>
+    </div>
+   
+
+
+</body>
+</html>
